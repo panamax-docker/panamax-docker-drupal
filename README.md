@@ -6,7 +6,6 @@ Drupal docker image without a DB included in the image. This image is designed t
 On docker run, browse to Port 80 on the container to complete initial setup. 
 Example usage:
 
-<pre><code>docker run --rm --name DRUPAL --link DB:DB panamax/panamax-docker-drupal:7.28
-</code></pre>
+`$ docker run --rm --name DRUPAL --link DB:DB panamax/panamax-docker-drupal:7.28`
 
 ...where `DB:DB` matches the name and alias of your DB instance. Use the values from your linked DB image to complete GUI setup.
