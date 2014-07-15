@@ -10,4 +10,4 @@ Example usage:
 
 ...where `DB:DB` matches the name and alias of your DB instance. Use the values from your linked DB image to complete GUI setup.
 
-From **CenturyLink Labs**
+From [CenturyLink Labs](http://www.centurylinklabs.com)
