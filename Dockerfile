@@ -4,7 +4,8 @@ MAINTAINER Pat Cox <patrick.cox@centurylink.com>
 # Install packages
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y upgrade && \
   DEBIAN_FRONTEND=noninteractive apt-get -y install supervisor pwgen && \
-  apt-get -y install mysql-client
+  apt-get -y install mysql-client && \
+  apt-get -y install postgresql-client
 
 # Download v7.28 of Drupal into /app
 RUN rm -fr /app && mkdir /app && cd /app && \
